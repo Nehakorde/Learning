@@ -1,8 +1,12 @@
 #include<iostream>
 using namespace std;
 
-int main(){
+int sum(int a , int b){
+return a+b;
 
-cout<<"Hello World";
+int main()
+{
+
+cout<<sum(10,20)<<endl;
 return 0;
 }
